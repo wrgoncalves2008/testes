@@ -22,6 +22,7 @@ public class TesteDoAvaliador {
 
 	       leiloeiro.avalia(leilao);
 
-	       System.out.println(leiloeiro.getMaiorLance()); // imprime 400.0
+	       System.out.println("Maior valor: " + leiloeiro.getMaiorLance()); // imprime 400.0
+	       System.out.println("Menor valor: " + leiloeiro.getMenorLance()); // imprime 250.0
 	   }
 	}
